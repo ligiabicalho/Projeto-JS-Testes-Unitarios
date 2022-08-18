@@ -31,7 +31,4 @@ trabalho na Trybe e mando muito em programação!
   } return undefined;
 };
 
-console.log(vqv('Lígia', 33));
-console.log(vqv());
-
 module.exports = vqv;
