@@ -93,6 +93,8 @@
 // - retornará o valor somado acrescido de 10%.
 // DICA: para isso, você precisará percorrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
 
+// EM DESENVOLVIMENTO...
+
 function orderFromMenu(request) {
   this.consumption.push(request);
   return this;
@@ -107,20 +109,5 @@ const createMenu = (myMenu) => {
   return restaurant;
 };
 console.log(createMenu().order('coxinha'));
-
-// const objetoRetornado = createMenu();
-// console.log(objetoRetornado.order('coxinha'));
-// console.log(objetoRetornado.consumption);
-
-// PASSO 3: Crie uma função, separada da função `createMenu()`, que, ao receber uma string como parâmetro, 
-// adiciona essa string ao array de `objetoRetornado.consumption`. Essa nova função será adicionada à chave `order`.
-// DICA PARA DESENVOLVIMENTO: 
-// ```
-// const restaurant = {}
-//
-// const createMenu = (myMenu) => // Lógica que edita o objeto `restaurant`
-//
-// const orderFromMenu = (request) => // Lógica que adiciona à chave `consumption` de `restaurant` a string recebida no parâmetro `request`. 
-// // Essa função deve ser associada à chave `order` de `restaurant`
 
 module.exports = createMenu;

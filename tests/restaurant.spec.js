@@ -52,6 +52,8 @@ const createMenu = require('../src/restaurant');
 
 */
 
+// EM DESENVOLVIMENTO...
+
 describe('10 - Implemente a função `createMenu`, bem como seus casos de teste', () => {
   it('Verifica se a função `createMenu` tem o comportamento esperado', () => {
     const objetoRetornado = createMenu();
